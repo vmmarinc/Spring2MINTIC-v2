@@ -78,7 +78,7 @@ async def update_stock_product(product_in: ProductIn2):
 
     stockNuevo = stockActual - stockVenta
 
-    if (stockNuevo < 0 or product_in_db == None):
+    if stockNuevo < 0:
         raise HTTPException(status_code=400, detail="Stock insuficiente")
 
     product_in_db.stock = stockNuevo
