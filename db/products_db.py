@@ -18,12 +18,12 @@ database_products = {
     "123_456": ProductsInDB(**{"bar_code":"123_456",
                                 "name":"Torta 1",
                                 "price":12000,
-                                "stock":5}),
+                                "stock":100}),
 
     "123_457": ProductsInDB(**{"bar_code":"123_457",
                                 "name":"Torta 2",
                                 "price":6000,
-                                "stock":10}),
+                                "stock":100}),
 
 }
 
