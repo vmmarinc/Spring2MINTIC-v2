@@ -12,7 +12,7 @@ from fastapi.encoders import jsonable_encoder
 
 origins = [
     "http://localhost.tiangolo.com", "https://localhost.tiangolo.com",
-    "http://localhost", "http://localhost:8080","https://spring3-g2m3-6-app.herokuapp.com/", 
+    "http://localhost", "http://localhost:8080","https://spring3-g2m3-6-app.herokuapp.com", 
 ]
 
 api.add_middleware(
